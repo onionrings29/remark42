@@ -7,17 +7,22 @@
  * ========================================================== */
 
 :root {
-  /* --- Dark neutrals (blue-tinted to match Tokyo Night) --- */
+  /* --- Dark neutrals (exact Tokyo Night values from Astro site) ---
+   * Page bg:   hsl(228 15% 10%) = #16181d
+   * Card bg:   hsl(228 15% 13%) = #1d1f27
+   * Muted bg:  hsl(228 15% 18%) = #282a34
+   * Border:    hsl(228 15% 20%) = #2e3040
+   */
   --color0: #0f172a;
-  --color8: #1c1e26;
-  --color22: #252830;
-  --color24: #2b2e3b;
-  --color7: #272a35;
-  --color23: #303342;
-  --color18: #303342;
-  --color19: #383b4a;
-  --color36: #494d5a;
-  --color34: #484c59;
+  --color8: #16181d;
+  --color22: #1d1f27;
+  --color24: #282a34;
+  --color7: #1d1f27;
+  --color23: #282a34;
+  --color18: #282a34;
+  --color19: #2e3040;
+  --color36: #3d4050;
+  --color34: #3a3d4c;
   --color37: #586069;
   --color14: #5a5e6c;
   --color10: #6b7084;
@@ -110,9 +115,9 @@
   --color3: #1a2a3d;
   --color4: #1e2d3f;
 
-  /* Lines / borders */
-  --color16: #2b2e3b;
-  --color31: #494d5a;
+  /* Lines / borders - match Astro --border: hsl(228 15% 20%) */
+  --color16: #2e3040;
+  --color31: #3d4050;
 
   /* Named semantic variables (DARK mode) */
   --line-color: var(--color16);
@@ -120,7 +125,7 @@
   --primary-color: 120, 207, 247;
   --primary-brighter-color: 148, 218, 250;
   --primary-text-color: 184, 191, 214;
-  --primary-background-color: 22, 23, 29;
+  --primary-background-color: 22, 24, 29;
   --secondary-text-color: 171, 175, 186;
   --error-color: #e06c75;
   --text-color: var(--white-color);
