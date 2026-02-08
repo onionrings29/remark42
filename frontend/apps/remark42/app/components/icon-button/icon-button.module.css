@@ -5,7 +5,7 @@
   margin: 0;
   padding: 4px;
   transition: transfrom 0.15s ease-out;
-  border-radius: 2px;
+  border-radius: 6px;
   appearance: none;
 
   &:hover {

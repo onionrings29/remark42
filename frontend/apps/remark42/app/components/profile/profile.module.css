@@ -84,7 +84,7 @@
 
 .content::-webkit-scrollbar-track {
   background: unset;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .content::-webkit-scrollbar-thumb {

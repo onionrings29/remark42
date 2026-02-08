@@ -25,8 +25,10 @@
 
   & blockquote {
     padding: 12px 8px 12px 16px;
-    border-left: 2px solid;
-    border-left-color: var(--color45);
+    border-left: 4px solid;
+    border-left-color: var(--color9);
+    background-color: rgba(var(--primary-color), 0.05);
+    border-radius: 0 6px 6px 0;
   }
 
   & p,
@@ -76,7 +78,7 @@
 
   & code {
     background-color: var(--chroma-bg);
-    border-radius: 3px;
+    border-radius: 6px;
     color: var(--chroma-base);
     line-height: 1.45;
     margin: 0;
@@ -92,7 +94,7 @@
     tab-size: 2;
     font-size: 85%;
     line-height: 1.45;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: var(--chroma-bg);
   }
 
